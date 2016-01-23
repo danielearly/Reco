@@ -1,7 +1,6 @@
-package Handlers; /**
- * Created by danie_000 on 1/15/2016.
- */
+package Handlers;
 
+import Users.User;
 import com.ECS.client.jax.*;
 
 import javax.xml.ws.handler.HandlerResolver;
@@ -39,4 +38,8 @@ public class APIHandler {
         return itemSearchResponse.getItems();
 
     }
+    void signUpFacebook (User user)
+    {}
+    void signUpGoogle(User user)
+    {}
 }

@@ -1,7 +1,6 @@
 package Products;
 
-/**
- * Created by danie_000 on 1/15/2016.
- */
-public class Movie {
+public class Movie implements Product{
+    String director;
+    String genre;
 }

@@ -5,6 +5,10 @@
   </head>
   <body>
   <h1>Reco</h1>
-  <p>To invoke the java servlet click <a href="Servlets.mainServlet">here</a></p>
+  <p>Testing Servlets: <a href="Servlets.mainServlet">here</a></p>
+  <form action="./results.php" method="get">
+    <input type="text" name="input" size="50"/>
+    <input type="submit" value="search"/>
+  </form>
   </body>
 </html>

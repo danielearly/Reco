@@ -1,7 +1,14 @@
 package Users;
 
-/**
- * Created by danie_000 on 1/15/2016.
- */
-public class Guest {
+public class Guest implements User{
+    @Override
+    public void login()
+    {}
+
+    @Override
+    public void logout()
+    {}
+
+    public void signUp()
+    {}
 }

@@ -1,7 +1,7 @@
 package Products;
 
-/**
- * Created by danie_000 on 1/15/2016.
- */
-public class Music {
+public class Music implements Product{
+    String artist;
+    String genre;
+    String album;
 }

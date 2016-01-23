@@ -1,7 +1,8 @@
 package Products;
 
-/**
- * Created by danie_000 on 1/15/2016.
- */
 public interface Product {
+    int likeCount = 0;
+    int dislikeCount = 0;
+    String name = "";
+    String description = "";
 }
