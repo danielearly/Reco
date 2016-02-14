@@ -20,7 +20,7 @@ import java.util.List;
 public class mainServlet extends HttpServlet {
 
     APIHandler apiHandler = new APIHandler();
-    String secretKey = "+pF21JN9zLiD1yxJn3Uoizrk9pASgLvdOxEp+fDC";
+    String secretKey = "g9wCzjssgZnJ5DvdXL6YkRunBlqbGzH+M0AoH6e+";
     //String awsKey = "AKIAITXMG6UKJZQG4YTA";
     String awsKey = "AKIAJACBVOUFHYMNODOA";
 
