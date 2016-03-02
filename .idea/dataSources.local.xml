@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - recodb@localhost" uuid="a9288f58-d106-47d6-966e-b04a2eb198d6">
+      <secret-storage>memory</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>recodb.*</schema-pattern>
+      <default-schemas>recodb.*</default-schemas>
+    </data-source>
+  </component>
+</project>

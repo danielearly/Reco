@@ -1,0 +1,1957 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dc871e39-85cb-41d7-b169-4a85e019e3a9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Procfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/AmazonProductAPI.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/AWSECommerceService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/AWSECommerceServicePortType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Accessories$Accessory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Accessories.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Arguments$Argument.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Arguments.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Bin$BinParameter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Bin.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/BrowseNode$Ancestors.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/BrowseNode$Children.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/BrowseNode$Properties.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/BrowseNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/BrowseNodeLookup.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/BrowseNodeLookupRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/BrowseNodeLookupResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/BrowseNodes.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Cart.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartAdd.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartAddRequest$Items$Item.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartAddRequest$Items.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartAddRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartAddResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartClear.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartClearRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartClearResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartCreate.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartCreateRequest$Items$Item$MetaData.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartCreateRequest$Items$Item.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartCreateRequest$Items.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartCreateRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartCreateResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartGet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartGetRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartGetResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartItem$MetaData$KeyValuePair.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartItem$MetaData.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartItem.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartItems.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartModify.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartModifyRequest$Items$Item.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartModifyRequest$Items.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartModifyRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartModifyResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Collections$Collection$CollectionItem.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Collections$Collection$CollectionParent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Collections$Collection$CollectionSummary.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Collections$Collection.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Collections.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CorrectedQuery.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CustomerReviews.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/DecimalWithUnits.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/EditorialReview.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/EditorialReviews.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Errors$Error.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Errors.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/HTTPHeaders$Header.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/HTTPHeaders.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Image.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/ImageSet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Item$AlternateVersions$AlternateVersion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Item$AlternateVersions.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Item$ImageSets.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Item$Subjects.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Item$VariationAttributes.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Item.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/ItemAttributes$CatalogNumberList.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/ItemAttributes$Creator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/ItemAttributes$EANList.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/ItemAttributes$ItemDimensions.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/ItemAttributes$Languages$Language.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/ItemAttributes$Languages.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/ItemAttributes$PackageDimensions.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/ItemAttributes$UPCList.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/ItemAttributes.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/ItemLink.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/ItemLinks.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/ItemLookup.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/ItemLookupRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/ItemLookupResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/ItemSearch.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/ItemSearchRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/ItemSearchResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Items.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/LoyaltyPoints.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Merchant.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/NewReleases$NewRelease.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/NewReleases.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/NonNegativeIntegerWithUnits.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/ObjectFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Offer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/OfferAttributes.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/OfferListing$AvailabilityAttributes.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/OfferListing.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/OfferSummary.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Offers.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/OperationRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/OtherCategoriesSimilarProducts$OtherCategoriesSimilarProduct.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/OtherCategoriesSimilarProducts.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Price.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Promotion$Summary.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Promotion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Promotions.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Property.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/RelatedItem.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/RelatedItems.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Request.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/SavedForLaterItems.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/SearchBinSet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/SearchBinSets.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/SearchResultsMap$SearchIndex.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/SearchResultsMap.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/SimilarProducts$SimilarProduct.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/SimilarProducts.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/SimilarViewedProducts$SimilarViewedProduct.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/SimilarViewedProducts.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/SimilarityLookup.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/SimilarityLookupRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/SimilarityLookupResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/StringWithUnits.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/TopItemSet$TopItem.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/TopItemSet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/TopSellers$TopSeller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/TopSellers.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Tracks$Disc$Track.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Tracks$Disc.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Tracks.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/VariationAttribute.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/VariationDimensions.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/VariationSummary.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Variations.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/package-info.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/jaxws-custom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/AWSECommerceService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/AWSECommerceServicePortType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/Accessories.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/Arguments.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/Bin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/BrowseNode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/BrowseNodeLookup.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/BrowseNodeLookupRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/BrowseNodeLookupResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/BrowseNodes.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/Cart.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/CartAdd.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/CartAddRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/CartAddResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/CartClear.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/CartClearRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/CartClearResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/CartCreate.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/CartCreateRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/CartCreateResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/CartGet.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/CartGetRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/CartGetResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/CartItem.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/CartItems.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/CartModify.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/CartModifyRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/CartModifyResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/Collections.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/CorrectedQuery.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/CustomerReviews.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/DecimalWithUnits.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/EditorialReview.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/EditorialReviews.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/Errors.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/HTTPHeaders.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/Image.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/ImageSet.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/Item.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/ItemAttributes.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/ItemLink.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/ItemLinks.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/ItemLookup.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/ItemLookupRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/ItemLookupResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/ItemSearch.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/ItemSearchRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/ItemSearchResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/Items.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/LoyaltyPoints.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/Merchant.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/NewReleases.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/NonNegativeIntegerWithUnits.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/ObjectFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/Offer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/OfferAttributes.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/OfferListing.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/OfferSummary.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/Offers.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/OperationRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/OtherCategoriesSimilarProducts.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/Price.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/Promotion.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/Promotions.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/Property.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/RelatedItem.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/RelatedItems.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/Request.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/SavedForLaterItems.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/SearchBinSet.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/SearchBinSets.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/SearchResultsMap.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/SimilarProducts.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/SimilarViewedProducts.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/SimilarityLookup.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/SimilarityLookupRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/SimilarityLookupResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/StringWithUnits.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/TopItemSet.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/TopSellers.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/Tracks.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/VariationAttribute.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/VariationDimensions.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/VariationSummary.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/Variations.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Handlers/APIHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Handlers/DBHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Handlers/UIHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Products/Book.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Products/Movie.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Products/Music.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Products/Product.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Servlets/mainServlet.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Users/Guest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Users/Member.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Users/User.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Reco.iml" afterPath="$PROJECT_DIR$/Reco.iml" />
+    </list>
+    <ignored path="Reco.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Reco" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="APIHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Handlers/APIHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="52" column="3" selection-start-line="52" selection-start-column="3" selection-end-line="52" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UIHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Handlers/UIHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Book.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Products/Book.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Users/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.9230769">
+              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Reco.iml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Reco.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Procfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Procfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="64" selection-start-line="0" selection-start-column="64" selection-end-line="0" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mainServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Servlets/mainServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Handlers/DBHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/AmazonProductAPI/jaxws-custom.xml" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Handlers/Main.java" />
+        <option value="$PROJECT_DIR$/src/Servlet.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/classes/Servlet.java" />
+        <option value="$PROJECT_DIR$/src/mainServlet.java" />
+        <option value="$PROJECT_DIR$/src/Handlers/UIHandler.java" />
+        <option value="$PROJECT_DIR$/src/Users/User.java" />
+        <option value="$PROJECT_DIR$/src/Users/Guest.java" />
+        <option value="$PROJECT_DIR$/src/Users/Member.java" />
+        <option value="$PROJECT_DIR$/src/Products/Product.java" />
+        <option value="$PROJECT_DIR$/src/Products/Book.java" />
+        <option value="$PROJECT_DIR$/src/Products/Movie.java" />
+        <option value="$PROJECT_DIR$/src/Products/Music.java" />
+        <option value="$PROJECT_DIR$/src/Handlers/DBHandler.java" />
+        <option value="G:/Downloads/amazon-product-advt-api-sample-java-query/AmazonProductAdvtApiSampleJavaQuery/src/com/amazon/advertising/api/sample/SignedRequestsHelper.java" />
+        <option value="$PROJECT_DIR$/src/Amazon/SignedRequestsHelper.java" />
+        <option value="$PROJECT_DIR$/src/AmazonProductAdvtApiSampleJavaQuery/src/com/amazon/advertising/api/sample/SignedRequestsHelper.java" />
+        <option value="$PROJECT_DIR$/src/AmazonProductAdvtApiSampleJavaQuery/src/com/amazon/advertising/api/sample/ItemLookupSample.java" />
+        <option value="$PROJECT_DIR$/AmazonProductAdvtApiSampleJavaQuery/src/com/amazon/advertising/api/sample/SignedRequestsHelper.java" />
+        <option value="$PROJECT_DIR$/AmazonProductAdvtApiSampleJavaQuery/src/com/amazon/advertising/api/sample/ItemLookupSample.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/index.jsp" />
+        <option value="$PROJECT_DIR$/src/Handlers/APIHandler.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/Servlets/mainServlet.java" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Handlers/APIHandler.java" />
+        <option value="$PROJECT_DIR$/Procfile" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Reco" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Reco" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Reco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Reco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Reco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Reco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Reco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Reco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Reco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Reco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Reco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Reco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Reco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Reco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Reco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Users" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Reco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Reco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Servlets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Reco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Reco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Products" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Reco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Reco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Handlers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="G:/Apache Shiro Tutorial/apache-shiro-tutorial-webapp" />
+    <property name="findjar.last.used.dir" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Reco\web" />
+      <recent name="G:\Reco\web\WEB-INF" />
+      <recent name="G:\Reco\src\Servlets" />
+      <recent name="G:\Reco\web\WEB-INF\classes" />
+      <recent name="G:\Reco\src\Handlers" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Handlers" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Reco\src\Amazon" />
+    </key>
+  </component>
+  <component name="RunManager" selected="GlassFish Server.GlassFish 4.1.1">
+    <configuration default="false" name="ItemLookupSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.amazon.advertising.api.sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.amazon.advertising.api.sample.ItemLookupSample" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="AmazonProductAdvtApiSampleJavaQuery" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
+      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
+      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
+      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
+      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GlassfishConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="DOMAIN" value="" />
+        <option name="PRESERVE" value="false" />
+        <option name="COMPATIBILITY" value="false" />
+        <option name="VIRTUAL_SERVER" />
+        <option name="USERNAME" value="admin" />
+        <option name="PASSWORD" value="" />
+      </server-settings>
+      <predefined_log_file id="GlassFish" enabled="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Reco" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="false" name="GlassFish 4.1.1" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 4.1.1" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/Reco_war_exploded" />
+      <deployment>
+        <artifact name="Reco:war exploded">
+          <settings />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="DOMAIN" value="domain1" />
+        <option name="PRESERVE" value="false" />
+        <option name="COMPATIBILITY" value="false" />
+        <option name="VIRTUAL_SERVER" />
+        <option name="USERNAME" value="admin" />
+        <option name="PASSWORD" value="" />
+      </server-settings>
+      <predefined_log_file id="GlassFish" enabled="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="9009" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Reco:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="GlassFish Server.GlassFish 4.1.1" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ItemLookupSample" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.ItemLookupSample" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dc871e39-85cb-41d7-b169-4a85e019e3a9" name="Default" comment="" />
+      <created>1452728648986</created>
+      <option name="number" value="Default" />
+      <updated>1452728648986</updated>
+      <workItem from="1452728653002" duration="2116000" />
+      <workItem from="1452736153238" duration="305000" />
+      <workItem from="1452890329241" duration="14262000" />
+      <workItem from="1453494855058" duration="16489000" />
+      <workItem from="1453580086333" duration="707000" />
+      <workItem from="1453852495819" duration="1364000" />
+      <workItem from="1454455229174" duration="3728000" />
+      <workItem from="1455394391747" duration="1828000" />
+      <workItem from="1455425196855" duration="11881000" />
+      <workItem from="1455493161564" duration="4942000" />
+      <workItem from="1455501595228" duration="2218000" />
+      <workItem from="1455649039888" duration="2249000" />
+      <workItem from="1455656217119" duration="369000" />
+      <workItem from="1455677509215" duration="2418000" />
+      <workItem from="1456441718895" duration="6623000" />
+      <workItem from="1456518959464" duration="9103000" />
+      <workItem from="1456869972417" duration="13807000" />
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1453504010759</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1453504010759</updated>
+    </task>
+    <task id="LOCAL-00002" summary="initial commit">
+      <created>1453517227092</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1453517227092</updated>
+    </task>
+    <task id="LOCAL-00003" summary="initial commit">
+      <created>1453517640990</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1453517640990</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fixed string">
+      <created>1455425430263</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1455425430263</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Class to help access amazon product api">
+      <created>1455425557960</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1455425557960</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Fixed many bad coding practices, updated to make results display on same jsp">
+      <created>1456880130793</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1456880130793</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Various fixes">
+      <created>1456880949545</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1456880949545</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Various fixes">
+      <created>1456881175044</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1456881175044</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="94409000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33044422" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39653304" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18443497" sideWeight="0.4935484" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18443497" sideWeight="0.5064516" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1444563" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24945295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1444563" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24945295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39715537" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33116883" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18443497" sideWeight="0.4935484" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18443497" sideWeight="0.5064516" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="fixed string" />
+    <MESSAGE value="Class to help access amazon product api" />
+    <MESSAGE value="Fixed many bad coding practices, updated to make results display on same jsp" />
+    <MESSAGE value="Various fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Various fixes" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/AmazonProductAdvtApiSampleJavaQuery/src/com/amazon/advertising/api/sample/ItemLookupSample.java</url>
+          <line>92</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/AmazonProductAdvtApiSampleJavaQuery/src/com/amazon/advertising/api/sample/ItemLookupSample.java</url>
+          <line>116</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Handlers/APIHandler.java</url>
+          <line>98</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Handlers/APIHandler.java</url>
+          <line>145</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="14" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="GlassfishConfiguration">
+        <watch expression="doc.getElementsByTagName(&quot;ASIN&quot;).item(0).getTextContent()" language="JAVA" custom="" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/AmazonProductAdvtApiSampleJavaQuery/src/com/amazon/advertising/api/sample/SignedRequestsHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="236" column="30" selection-start-line="236" selection-start-column="30" selection-end-line="236" selection-end-column="30" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Handlers/APIHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Products/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Handlers/DBHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a9288f58-d106-47d6-966e-b04a2eb198d6/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Handlers/UIHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Products/Music.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Products/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Users/Guest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Handlers/APIHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Servlets/mainServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Products/Music.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Products/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Users/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Users/Guest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Users/Member.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Users/Member.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Products/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Products/Music.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Products/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Users/Guest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/27c4b5fa-b00f-4c90-a45b-0ffadac2a257/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a9288f58-d106-47d6-966e-b04a2eb198d6/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AmazonProductAdvtApiSampleJavaQuery/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AmazonProductAdvtApiSampleJavaQuery/NOTICE.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AmazonProductAdvtApiSampleJavaQuery/LICENSE.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AmazonProductAdvtApiSampleJavaQuery/README.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AmazonProductAdvtApiSampleJavaQuery/src/com/amazon/advertising/api/sample/ItemLookupSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AmazonProductAdvtApiSampleJavaQuery/src/com/amazon/advertising/api/sample/SignedRequestsHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="236" column="30" selection-start-line="236" selection-start-column="30" selection-end-line="236" selection-end-column="30" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MockUpUI.PNG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/resources/images/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://G:/Applications/glassfish-4.1.1/glassfish4/glassfish/modules/javax.servlet-api.jar!/javax/servlet/http/HttpServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6296296">
+          <caret line="229" column="0" selection-start-line="229" selection-start-column="0" selection-end-line="229" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9230769">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.773585">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Handlers/DBHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Handlers/UIHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Products/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Users/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Servlets/mainServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Handlers/APIHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="52" column="3" selection-start-line="52" selection-start-column="3" selection-end-line="52" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="64" selection-start-line="0" selection-start-column="64" selection-end-line="0" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9230769">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Reco.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>Reco:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>jquery-latest</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Reco</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>libs</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
