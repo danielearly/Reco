@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AmazonProductAPI/AmazonProductAPI.iml" filepath="$PROJECT_DIR$/AmazonProductAPI/AmazonProductAPI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AmazonProductAdvtApiSampleJavaQuery/AmazonProductAdvtApiSampleJavaQuery.iml" filepath="$PROJECT_DIR$/AmazonProductAdvtApiSampleJavaQuery/AmazonProductAdvtApiSampleJavaQuery.iml" />
       <module fileurl="file://$PROJECT_DIR$/Reco.iml" filepath="$PROJECT_DIR$/Reco.iml" />
     </modules>
   </component>

@@ -7,6 +7,10 @@
         <element id="directory" name="classes">
           <element id="module-output" name="Reco" />
           <element id="module-output" name="AmazonProductAPI" />
+          <element id="module-output" name="AmazonProductAdvtApiSampleJavaQuery" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="libs" />
         </element>
       </element>
     </root>

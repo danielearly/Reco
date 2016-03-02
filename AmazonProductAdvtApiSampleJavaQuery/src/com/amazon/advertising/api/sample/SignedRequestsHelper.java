@@ -19,7 +19,7 @@
  *
  */
 
-package AmazonProductAdvtApiSampleJavaQuery.src.com.amazon.advertising.api.sample;
+package com.amazon.advertising.api.sample;
 
 import java.io.UnsupportedEncodingException;
 
