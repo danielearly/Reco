@@ -7,6 +7,9 @@
     <groupId>RecoGroup</groupId>
     <artifactId>Reco</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>AmazonProductAdvtApiSampleJavaQuery</module>
+    </modules>
     <dependencies>
         <dependency>
             <groupId>javax.servlet</groupId>
