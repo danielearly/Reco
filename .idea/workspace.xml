@@ -2,247 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc871e39-85cb-41d7-b169-4a85e019e3a9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Procfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/AmazonProductAPI.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/AWSECommerceService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/AWSECommerceServicePortType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Accessories$Accessory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Accessories.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Arguments$Argument.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Arguments.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Bin$BinParameter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Bin.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/BrowseNode$Ancestors.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/BrowseNode$Children.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/BrowseNode$Properties.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/BrowseNode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/BrowseNodeLookup.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/BrowseNodeLookupRequest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/BrowseNodeLookupResponse.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/BrowseNodes.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Cart.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartAdd.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartAddRequest$Items$Item.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartAddRequest$Items.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartAddRequest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartAddResponse.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartClear.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartClearRequest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartClearResponse.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartCreate.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartCreateRequest$Items$Item$MetaData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartCreateRequest$Items$Item.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartCreateRequest$Items.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartCreateRequest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartCreateResponse.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartGet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartGetRequest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartGetResponse.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartItem$MetaData$KeyValuePair.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartItem$MetaData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartItem.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartItems.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartModify.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartModifyRequest$Items$Item.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartModifyRequest$Items.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartModifyRequest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CartModifyResponse.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Collections$Collection$CollectionItem.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Collections$Collection$CollectionParent.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Collections$Collection$CollectionSummary.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Collections$Collection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Collections.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CorrectedQuery.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/CustomerReviews.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/DecimalWithUnits.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/EditorialReview.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/EditorialReviews.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Errors$Error.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Errors.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/HTTPHeaders$Header.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/HTTPHeaders.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Image.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/ImageSet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Item$AlternateVersions$AlternateVersion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Item$AlternateVersions.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Item$ImageSets.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Item$Subjects.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Item$VariationAttributes.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Item.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/ItemAttributes$CatalogNumberList.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/ItemAttributes$Creator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/ItemAttributes$EANList.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/ItemAttributes$ItemDimensions.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/ItemAttributes$Languages$Language.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/ItemAttributes$Languages.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/ItemAttributes$PackageDimensions.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/ItemAttributes$UPCList.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/ItemAttributes.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/ItemLink.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/ItemLinks.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/ItemLookup.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/ItemLookupRequest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/ItemLookupResponse.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/ItemSearch.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/ItemSearchRequest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/ItemSearchResponse.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Items.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/LoyaltyPoints.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Merchant.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/NewReleases$NewRelease.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/NewReleases.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/NonNegativeIntegerWithUnits.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/ObjectFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Offer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/OfferAttributes.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/OfferListing$AvailabilityAttributes.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/OfferListing.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/OfferSummary.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Offers.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/OperationRequest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/OtherCategoriesSimilarProducts$OtherCategoriesSimilarProduct.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/OtherCategoriesSimilarProducts.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Price.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Promotion$Summary.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Promotion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Promotions.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Property.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/RelatedItem.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/RelatedItems.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Request.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/SavedForLaterItems.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/SearchBinSet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/SearchBinSets.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/SearchResultsMap$SearchIndex.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/SearchResultsMap.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/SimilarProducts$SimilarProduct.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/SimilarProducts.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/SimilarViewedProducts$SimilarViewedProduct.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/SimilarViewedProducts.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/SimilarityLookup.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/SimilarityLookupRequest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/SimilarityLookupResponse.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/StringWithUnits.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/TopItemSet$TopItem.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/TopItemSet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/TopSellers$TopSeller.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/TopSellers.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Tracks$Disc$Track.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Tracks$Disc.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Tracks.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/VariationAttribute.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/VariationDimensions.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/VariationSummary.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/Variations.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/build/com/ECS/client/jax/package-info.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/jaxws-custom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/AWSECommerceService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/AWSECommerceServicePortType.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/Accessories.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/Arguments.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/Bin.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/BrowseNode.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/BrowseNodeLookup.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/BrowseNodeLookupRequest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/BrowseNodeLookupResponse.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/BrowseNodes.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/Cart.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/CartAdd.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/CartAddRequest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/CartAddResponse.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/CartClear.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/CartClearRequest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/CartClearResponse.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/CartCreate.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/CartCreateRequest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/CartCreateResponse.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/CartGet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/CartGetRequest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/CartGetResponse.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/CartItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/CartItems.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/CartModify.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/CartModifyRequest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/CartModifyResponse.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/Collections.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/CorrectedQuery.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/CustomerReviews.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/DecimalWithUnits.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/EditorialReview.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/EditorialReviews.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/Errors.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/HTTPHeaders.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/Image.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/ImageSet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/Item.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/ItemAttributes.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/ItemLink.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/ItemLinks.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/ItemLookup.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/ItemLookupRequest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/ItemLookupResponse.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/ItemSearch.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/ItemSearchRequest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/ItemSearchResponse.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/Items.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/LoyaltyPoints.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/Merchant.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/NewReleases.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/NonNegativeIntegerWithUnits.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/ObjectFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/Offer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/OfferAttributes.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/OfferListing.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/OfferSummary.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/Offers.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/OperationRequest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/OtherCategoriesSimilarProducts.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/Price.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/Promotion.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/Promotions.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/Property.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/RelatedItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/RelatedItems.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/Request.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/SavedForLaterItems.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/SearchBinSet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/SearchBinSets.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/SearchResultsMap.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/SimilarProducts.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/SimilarViewedProducts.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/SimilarityLookup.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/SimilarityLookupRequest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/SimilarityLookupResponse.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/StringWithUnits.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/TopItemSet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/TopSellers.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/Tracks.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/VariationAttribute.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/VariationDimensions.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/VariationSummary.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/Variations.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AmazonProductAPI/src/com/ECS/client/jax/package-info.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Handlers/APIHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Handlers/DBHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Handlers/UIHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Products/Book.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Products/Movie.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Products/Music.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Products/Product.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Servlets/mainServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Users/Guest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Users/Member.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Users/User.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AmazonProductAdvtApiSampleJavaQuery/pom.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/AmazonProductAdvtApiSampleJavaQuery/com/amazon/advertising/api/sample/SignedRequestsHelper.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Reco_war_exploded/WEB-INF/classes/Handlers/APIHandler.class" afterPath="$PROJECT_DIR$/out/artifacts/Reco_war_exploded/WEB-INF/classes/Handlers/APIHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Reco_war_exploded/WEB-INF/classes/Handlers/DBHandler.class" afterPath="$PROJECT_DIR$/out/artifacts/Reco_war_exploded/WEB-INF/classes/Handlers/DBHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Reco_war_exploded/WEB-INF/classes/Handlers/UIHandler.class" afterPath="$PROJECT_DIR$/out/artifacts/Reco_war_exploded/WEB-INF/classes/Handlers/UIHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Reco_war_exploded/WEB-INF/classes/Products/Book.class" afterPath="$PROJECT_DIR$/out/artifacts/Reco_war_exploded/WEB-INF/classes/Products/Book.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Reco_war_exploded/WEB-INF/classes/Products/Movie.class" afterPath="$PROJECT_DIR$/out/artifacts/Reco_war_exploded/WEB-INF/classes/Products/Movie.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Reco_war_exploded/WEB-INF/classes/Products/Music.class" afterPath="$PROJECT_DIR$/out/artifacts/Reco_war_exploded/WEB-INF/classes/Products/Music.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Reco_war_exploded/WEB-INF/classes/Products/Product.class" afterPath="$PROJECT_DIR$/out/artifacts/Reco_war_exploded/WEB-INF/classes/Products/Product.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Reco_war_exploded/WEB-INF/classes/Servlets/mainServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/Reco_war_exploded/WEB-INF/classes/Servlets/mainServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Reco_war_exploded/WEB-INF/classes/Users/Guest.class" afterPath="$PROJECT_DIR$/out/artifacts/Reco_war_exploded/WEB-INF/classes/Users/Guest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Reco_war_exploded/WEB-INF/classes/Users/Member.class" afterPath="$PROJECT_DIR$/out/artifacts/Reco_war_exploded/WEB-INF/classes/Users/Member.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Reco_war_exploded/WEB-INF/classes/Users/User.class" afterPath="$PROJECT_DIR$/out/artifacts/Reco_war_exploded/WEB-INF/classes/Users/User.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AmazonProductAdvtApiSampleJavaQuery/AmazonProductAdvtApiSampleJavaQuery.iml" afterPath="$PROJECT_DIR$/AmazonProductAdvtApiSampleJavaQuery/AmazonProductAdvtApiSampleJavaQuery.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Reco.iml" afterPath="$PROJECT_DIR$/Reco.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Reco_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/Reco_war_exploded/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Servlets/mainServlet.java" afterPath="$PROJECT_DIR$/src/main/java/Servlets/mainServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AmazonProductAdvtApiSampleJavaQuery/src/com/amazon/advertising/api/sample/ItemLookupSample.java" afterPath="$PROJECT_DIR$/AmazonProductAdvtApiSampleJavaQuery/src/main/java/com/amazon/advertising/api/sample/ItemLookupSample.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AmazonProductAdvtApiSampleJavaQuery/src/com/amazon/advertising/api/sample/SignedRequestsHelper.java" afterPath="$PROJECT_DIR$/AmazonProductAdvtApiSampleJavaQuery/src/main/java/com/amazon/advertising/api/sample/SignedRequestsHelper.java" />
     </list>
     <ignored path="Reco.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/AmazonProductAdvtApiSampleJavaQuery/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -277,10 +69,8 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Handlers/APIHandler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="52" column="3" selection-start-line="52" selection-start-column="3" selection-end-line="52" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -290,16 +80,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Book.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Products/Book.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -318,18 +98,28 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9230769">
-              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Reco.iml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AmazonProductAdvtApiSampleJavaQuery/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.30141845">
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Reco.iml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Reco.iml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -348,7 +138,7 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
+            <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -359,19 +149,17 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Servlets/mainServlet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DBHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Handlers/DBHandler.java">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -423,10 +211,12 @@
         <option value="$PROJECT_DIR$/src/Handlers/APIHandler.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/Servlets/mainServlet.java" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/Handlers/APIHandler.java" />
         <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/src/main/java/Handlers/APIHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Servlets/mainServlet.java" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/AmazonProductAdvtApiSampleJavaQuery/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -460,6 +250,16 @@
           <option name="myItemId" value="Reco" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Reco" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
         <PATH_ELEMENT>
           <option name="myItemId" value="Plugins" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
@@ -472,6 +272,30 @@
         </PATH_ELEMENT>
         <PATH_ELEMENT>
           <option name="myItemId" value="Reco" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="AmazonProductAdvtApiSampleJavaQuery" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="AmazonProductAdvtApiSampleJavaQuery" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
@@ -512,9 +336,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -576,10 +399,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -705,8 +524,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Reco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Reco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AmazonProductAdvtApiSampleJavaQuery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -723,11 +557,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Reco" />
+      <recent name="G:\Reco\src\main\java" />
       <recent name="G:\Reco\web" />
       <recent name="G:\Reco\web\WEB-INF" />
       <recent name="G:\Reco\src\Servlets" />
-      <recent name="G:\Reco\web\WEB-INF\classes" />
-      <recent name="G:\Reco\src\Handlers" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Handlers" />
@@ -1325,7 +1159,11 @@
       <workItem from="1455677509215" duration="2418000" />
       <workItem from="1456441718895" duration="6623000" />
       <workItem from="1456518959464" duration="9103000" />
-      <workItem from="1456869972417" duration="13807000" />
+      <workItem from="1456869972417" duration="17406000" />
+      <workItem from="1457048253549" duration="2302000" />
+      <workItem from="1457052357804" duration="5319000" />
+      <workItem from="1457067995804" duration="2460000" />
+      <workItem from="1457377239380" duration="242000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1453504010759</created>
@@ -1379,22 +1217,20 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94409000" />
+    <option name="totallyTimeSpent" value="108331000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33044422" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39653304" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33044422" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18443497" sideWeight="0.4935484" order="0" side_tool="false" content_ui="combo" />
@@ -1404,12 +1240,14 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32719395" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61538464" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1464,13 +1302,13 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/AmazonProductAdvtApiSampleJavaQuery/src/com/amazon/advertising/api/sample/ItemLookupSample.java</url>
+          <url>file://$PROJECT_DIR$/AmazonProductAdvtApiSampleJavaQuery/src/main/java/com/amazon/advertising/api/sample/ItemLookupSample.java</url>
           <line>92</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/AmazonProductAdvtApiSampleJavaQuery/src/com/amazon/advertising/api/sample/ItemLookupSample.java</url>
+          <url>file://$PROJECT_DIR$/AmazonProductAdvtApiSampleJavaQuery/src/main/java/com/amazon/advertising/api/sample/ItemLookupSample.java</url>
           <line>116</line>
           <properties />
           <option name="timeStamp" value="6" />
@@ -1501,14 +1339,17 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AmazonProductAdvtApiSampleJavaQuery/src/com/amazon/advertising/api/sample/SignedRequestsHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Handlers/DBHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AmazonProductAdvtApiSampleJavaQuery/src/main/java/com/amazon/advertising/api/sample/SignedRequestsHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="236" column="30" selection-start-line="236" selection-start-column="30" selection-end-line="236" selection-end-column="30" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1516,9 +1357,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1596,9 +1435,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1606,9 +1443,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1738,7 +1573,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AmazonProductAdvtApiSampleJavaQuery/src/com/amazon/advertising/api/sample/ItemLookupSample.java">
+    <entry file="file://$PROJECT_DIR$/AmazonProductAdvtApiSampleJavaQuery/src/main/java/com/amazon/advertising/api/sample/ItemLookupSample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
@@ -1746,14 +1581,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AmazonProductAdvtApiSampleJavaQuery/src/com/amazon/advertising/api/sample/SignedRequestsHelper.java">
+    <entry file="file://$PROJECT_DIR$/AmazonProductAdvtApiSampleJavaQuery/src/main/java/com/amazon/advertising/api/sample/SignedRequestsHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="236" column="30" selection-start-line="236" selection-start-column="30" selection-end-line="236" selection-end-column="30" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1782,27 +1613,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.773585">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Handlers/DBHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Handlers/UIHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1810,7 +1624,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1819,26 +1632,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Servlets/mainServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Handlers/APIHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="52" column="3" selection-start-line="52" selection-start-column="3" selection-end-line="52" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1858,18 +1651,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/Reco.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9230769">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Reco.iml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Handlers/UIHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Handlers/APIHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Servlets/mainServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AmazonProductAdvtApiSampleJavaQuery/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30141845">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -1934,7 +1767,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

@@ -31,7 +31,6 @@ public class mainServlet extends HttpServlet {
         String input = request.getParameter("input");
         String category = request.getParameter("category");
 
-        //request.getRequestDispatcher("/web/index.jsp").forward(request, response);
         List<String> itemsList = apiHandler.getSearchResultsTitle(input, category);
         List<String> urlList = apiHandler.getSearchResultsURLs(input, category);
 

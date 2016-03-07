@@ -5,19 +5,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>RecoGroup</groupId>
-    <artifactId>Reco</artifactId>
+    <artifactId>AmazonProductAdvtApiSampleJavaQuery</artifactId>
     <version>1.0-SNAPSHOT</version>
     <dependencies>
         <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>javax.servlet-api</artifactId>
-            <version>3.1.0</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>RecoGroup</groupId>
-            <artifactId>AmazonProductAdvtApiSampleJavaQuery</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+            <version>1.9</version>
         </dependency>
     </dependencies>
+    
 </project>
