@@ -2,14 +2,6 @@
 <html>
 <head>
 
-  <script type="text/javascript">
-    var resultsForm = document.getElementById('results');
-    var serachButton = document.getElementById('searchBtn');
-    searchButton.onclick = function() {
-      resultsForm.style.display = 'block';
-    };
-  </script>
-
   <title>Reco</title>
   <br>
   <img src="<%=request.getContextPath()%>/resources/images/logo.png" />
@@ -27,7 +19,7 @@
   <input type="submit" id="btnSearch" value="search"/>
 </form>
 
-<form id="results" style="display:none">
+<form id="results">
   <br>
   1) <a href=${urlList[0]}>${itemsList[0]}</a>
   <input type="button" value="+"/>
