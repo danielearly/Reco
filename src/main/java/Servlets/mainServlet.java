@@ -30,7 +30,7 @@ public class mainServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String input = request.getParameter("input");
         String category = request.getParameter("category");
-        if (input != null && !input.contains("")) {
+        if (input != null && !input.contentEquals("")) {
             List<String> itemsList = apiHandler.getSearchResultsTitle(input, category);
             List<String> urlList = apiHandler.getSearchResultsURLs(input, category);
 
