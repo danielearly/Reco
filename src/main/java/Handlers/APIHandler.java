@@ -8,10 +8,7 @@ import org.w3c.dom.NodeList;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 
 public class APIHandler {
@@ -61,6 +58,46 @@ public class APIHandler {
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+
+    public Map<String, String> getSearchResults(String input, String category) {
+        initializeHelper();
+        String requestUrl;
+        String title;
+        String ASIN;
+        HashMap<String, String> products = new HashMap<String, String>();
+
+        Map<String, String> params = new HashMap();
+        params.put("Service", AWS_SERVICE);
+        params.put("Version", AWS_VERSION);
+        params.put("Operation", "ItemSearch");
+        params.put("Keywords", input);
+        params.put("SearchIndex", category);
+        params.put("AssociateTag", AWS_ASSOCIATE_TAG);
+
+        requestUrl = helper.sign(params);
+        System.out.println("Signed Request is \"" + requestUrl + "\"");
+
+        ASIN = getItemASIN(requestUrl);
+
+        params = new HashMap();
+        params.put("Service", AWS_SERVICE);
+        params.put("Version", AWS_VERSION);
+        params.put("Operation", "SimilarityLookup");
+        params.put("ItemId", ASIN);
+        params.put("SearchIndex", category);
+        params.put("AssociateTag", AWS_ASSOCIATE_TAG);
+
+        requestUrl = helper.sign(params);
+
+        List<String> titles = getRecommendedTitles(requestUrl);
+        List<String> urls = getItemURLs(requestUrl);
+        Map<String, String> results = new LinkedHashMap<String, String>();
+
+        for (int i = 0; i < titles.size(); i++) {
+            results.put(titles.get(i), urls.get(i));
+        }
+        return results;
     }
 
     public List<String> getSearchResultsTitle(String input, String category)
@@ -191,4 +228,6 @@ public class APIHandler {
     {}
     void signUpGoogle(User user)
     {}
+
+
 }
