@@ -50,6 +50,7 @@ public class APIHandler {
 
     private List<String> urls = new ArrayList<String>();
     private List<String> titles = new ArrayList<String>();
+    private List<String> creators = new ArrayList<String>();
     private List<String> asins = new ArrayList<String>();
     private List<String> genres = new ArrayList<String>();
     private List<String> prices = new ArrayList<String>();
@@ -76,6 +77,7 @@ public class APIHandler {
     {
         return titles;
     }
+    public List<String> getCreators() { return creators;}
     public List<String> getAsins()
     {
         return asins;
@@ -103,6 +105,7 @@ public class APIHandler {
         String requestUrl = null;
         urls = new ArrayList<String>();
         titles = new ArrayList<String>();
+        creators = new ArrayList<String>();
         asins = new ArrayList<String>();
         genres = new ArrayList<String>();
         prices = new ArrayList<String>();
@@ -133,6 +136,7 @@ public class APIHandler {
         requestUrl = helper.sign(params);
         asins.addAll(getASINsFromRequest(requestUrl));
         titles.addAll(getTitlesFromRequest(requestUrl));
+        creators.addAll(getCreatorsFromRequest(requestUrl));
         urls.addAll(getURLsFromRequest(requestUrl));
         genres.addAll(getGenresFromRequest(requestUrl));
         prices.addAll(getPricesFromRequest(requestUrl));
@@ -160,8 +164,8 @@ public class APIHandler {
             rankings.addAll(getRankingsFromRequest(requestUrl));
             images.addAll(getImagesFromRequest(requestUrl));
         }
-*/
-        /*Map<String, String> results = new HashMap<String, String>(100);
+
+        Map<String, String> results = new HashMap<String, String>(100);
 
         for (int j = 0; j < titles.size(); j++) {
             //NOTE!!!!!! DO NOT DELETE!!!!!
@@ -174,7 +178,6 @@ public class APIHandler {
         return results;
         */
     }
-
     private static Document getDocumentFromUrl(String requestUrl)
     {
         try {
@@ -220,12 +223,10 @@ public class APIHandler {
     private static List<String> getTitlesFromRequest(String requestUrl) {
         List<String> titles = new ArrayList<String>();
         try {
-
                 Document doc = getDocumentFromUrl(requestUrl);
                 NodeList titleNodes = doc.getElementsByTagName("Title");
                 for (int i = 0; i < titleNodes.getLength() && i < 10; ++i) {
-                    if(!titles.contains(titleNodes.item(i).getTextContent()))
-                        titles.add(titleNodes.item(i).getTextContent());
+                    titles.add(titleNodes.item(i).getTextContent());
                 }
             return titles;
         } catch (Exception e) {
@@ -244,6 +245,43 @@ public class APIHandler {
                     urls.add(urlNodes.item(i).getTextContent());
             }
             return urls;
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+
+    private static List<String> getCreatorsFromRequest(String requestUrl) {
+        List<String> creators = new ArrayList<String>();
+        try {
+            Document doc = getDocumentFromUrl(requestUrl);
+            NodeList itemAttributes = doc.getElementsByTagName("ItemAttributes");
+
+            for (int i = 0; i < itemAttributes.getLength(); ++i)
+            {
+                Node attribute = itemAttributes.item(i);
+                NodeList attributes = attribute.getChildNodes();
+
+                for (int j = 0; j < attributes.getLength(); ++j)
+                {
+                    Node attributeNode = attributes.item(j);
+                    String attributeName = attributeNode.getNodeName();
+                    if (attributeName.equals("Director")) {
+                        creators.add(attributeNode.getTextContent());
+                        break;
+                    } else if (attributeName.equals("Author")) {
+                        creators.add(attributeNode.getTextContent());
+                        break;
+                    } else if (attributeName.equals("Creator")) {
+                        creators.add(attributeNode.getTextContent());
+                        break;
+                    } else if (attributeName.equals("Artist")) {
+                        creators.add(attributeNode.getTextContent());
+                        break;
+                    }
+                }
+            }
+            return creators;
         } catch (Exception e) {
             throw new RuntimeException(e);
         }

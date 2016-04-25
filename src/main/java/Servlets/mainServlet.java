@@ -31,6 +31,7 @@ public class mainServlet extends HttpServlet {
 
             request.setAttribute("titlesList", apiHandler.getTitles());
             request.setAttribute("urlList", apiHandler.getUrls());
+            request.setAttribute("creatorList", apiHandler.getCreators());
             request.setAttribute("priceList", apiHandler.getPrices());
             request.setAttribute("genreList", apiHandler.getGenres());
             request.setAttribute("rankingList", apiHandler.getRankings());
