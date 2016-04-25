@@ -1,7 +1,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
 <html>
 <head>
-
+  <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+  <script src="../js/bootstrap.min.js"></script>
   <title>Reco</title>
   <br>
   <img src="<%=request.getContextPath()%>/resources/images/logo.png" />
@@ -20,46 +23,26 @@
 </form>
 
 <form id="results">
-  <br>
-  1) <a href=${urlList[0]}>${itemsList[0]}</a>
-  <input type="button" value="+"/>
-  <input type="button" value="-"/>
-  <p>
-    2) <a href=${urlList[1]}>${itemsList[1]}</a>
-    <input type="button" value="+"/>
-    <input type="button" value="-"/>
-  <p>
-    3) <a href=${urlList[2]}>${itemsList[2]}</a>
-    <input type="button" value="+"/>
-    <input type="button" value="-"/>
-  <p>
-    4) <a href=${urlList[3]}>${itemsList[3]}</a>
-    <input type="button" value="+"/>
-    <input type="button" value="-"/>
-  <p>
-    5) <a href=${urlList[4]}>${itemsList[4]}</a>
-    <input type="button" value="+"/>
-    <input type="button" value="-"/>
-  <p>
-    6) <a href=${urlList[5]}>${itemsList[5]}</a>
-    <input type="button" value="+"/>
-    <input type="button" value="-"/>
-  <p>
-    7) <a href=${urlList[6]}>${itemsList[6]}</a>
-    <input type="button" value="+"/>
-    <input type="button" value="-"/>
-  <p>
-    8) <a href=${urlList[7]}>${itemsList[7]}</a>
-    <input type="button" value="+"/>
-    <input type="button" value="-"/>
-  <p>
-    9) <a href=${urlList[8]}>${itemsList[8]}</a>
-    <input type="button" value="+"/>
-    <input type="button" value="-"/>
-  <p>
-    10) <a href=${urlList[9]}>${itemsList[9]}</a>
-    <input type="button" value="+"/>
-    <input type="button" value="-"/>
+  <table>
+    <tr>
+      <th>#</th>
+      <th>Name</th>
+      <th>Genre</th>
+      <th>Price</th>
+      <th>Ranking</th>
+      <th>Image</th>
+    </tr>
+    <c:forEach items="${titlesList}" var="title" varStatus="status">
+      <tr>
+        <td>${status.index + 1}</td>
+        <td><a href=${urlList[status.index]}>${title}</a></td>
+        <td>${genreList[status.index]}</td>
+        <td>${priceList[status.index]}</td>
+        <td>${rankingList[status.index]}</td>
+        <td><img src="${imageList[status.index]}"></td>
+      </tr>
+    </c:forEach>
+  </table>
 </form>
 </body>
 </html>

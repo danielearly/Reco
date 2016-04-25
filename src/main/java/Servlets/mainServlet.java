@@ -8,9 +8,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
 
 /**
  * Created by danie_000 on 1/15/2016.
@@ -30,12 +27,14 @@ public class mainServlet extends HttpServlet {
         String input = request.getParameter("input");
         String category = request.getParameter("category");
         if (input != null && !input.contentEquals("")) {
-            Map<String, String> products = apiHandler.getSearchResults(input, category);
+            apiHandler.getSearchResults(input, category);
 
-            List<String> itemsList = new ArrayList<String>(products.keySet());
-            List<String> urlList = new ArrayList<String>(products.values());
-            request.setAttribute("itemsList", itemsList);
-            request.setAttribute("urlList", urlList);
+            request.setAttribute("titlesList", apiHandler.getTitles());
+            request.setAttribute("urlList", apiHandler.getUrls());
+            request.setAttribute("priceList", apiHandler.getPrices());
+            request.setAttribute("genreList", apiHandler.getGenres());
+            request.setAttribute("rankingList", apiHandler.getRankings());
+            request.setAttribute("imageList", apiHandler.getImages());
         }
         request.getRequestDispatcher("/index.jsp").forward(request, response);
     }
