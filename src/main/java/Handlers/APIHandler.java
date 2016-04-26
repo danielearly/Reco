@@ -250,7 +250,6 @@ public class APIHandler {
         }
     }
 
-
     private static List<String> getCreatorsFromRequest(String requestUrl) {
         List<String> creators = new ArrayList<String>();
         try {
@@ -261,25 +260,30 @@ public class APIHandler {
             {
                 Node attribute = itemAttributes.item(i);
                 NodeList attributes = attribute.getChildNodes();
-
+                String productGroup = getProductGroup(attributes);
+                int lengthPrevious = creators.size();
                 for (int j = 0; j < attributes.getLength(); ++j)
                 {
                     Node attributeNode = attributes.item(j);
                     String attributeName = attributeNode.getNodeName();
-                    if (attributeName.equals("Director")) {
+                    assert productGroup != null;
+                    assert attributeName != null;
+                    if (attributeName.equals("Director") && productGroup.equals("Movie")) {
                         creators.add(attributeNode.getTextContent());
                         break;
-                    } else if (attributeName.equals("Author")) {
+                    } else if (attributeName.equals("Author") && productGroup.equals("Book")) {
                         creators.add(attributeNode.getTextContent());
                         break;
-                    } else if (attributeName.equals("Creator")) {
+                    } else if (attributeName.equals("Creator") && productGroup.equals("Video Games")) {
                         creators.add(attributeNode.getTextContent());
                         break;
-                    } else if (attributeName.equals("Artist")) {
+                    } else if (attributeName.equals("Artist") && productGroup.equals("Music")) {
                         creators.add(attributeNode.getTextContent());
                         break;
                     }
                 }
+                if(lengthPrevious == creators.size())
+                    creators.add(" ");
             }
             return creators;
         } catch (Exception e) {
@@ -287,16 +291,48 @@ public class APIHandler {
         }
     }
 
+    private static String getProductGroup(NodeList attributes) {
+        for (int i = 0; i < attributes.getLength(); ++i)
+        {
+            Node attribute = attributes.item(i);
+            if (attribute.getNodeName().equals("ProductGroup"))
+                return attribute.getTextContent();
+        }
+        return null;
+    }
+
     private static List<String> getGenresFromRequest(String requestUrl) {
         List<String> genres = new ArrayList<String>();
         try {
             Document doc = getDocumentFromUrl(requestUrl);
-            NodeList genreNodes = doc.getElementsByTagName("Genre");
+            /*NodeList genreNodes = doc.getElementsByTagName("Genre");
 
             for (int i = 0; i < genreNodes.getLength() && i < 10; ++i) {
                     if (genreNodes.item(i).getTextContent() != null)
                         genres.add(genreNodes.item(i).getTextContent());
+            }*/
+
+            NodeList itemAttributes = doc.getElementsByTagName("ItemAttributes");
+
+            for (int i = 0; i < itemAttributes.getLength(); ++i)
+            {
+                Node attribute = itemAttributes.item(i);
+                NodeList attributes = attribute.getChildNodes();
+
+                int lengthPrevious = genres.size();
+                for (int j = 0; j < attributes.getLength(); ++j)
+                {
+                    Node attributeNode = attributes.item(j);
+                    String attributeName = attributeNode.getNodeName();
+                    if(attributeName.equals("Genre"))
+                    {
+                        genres.add(attributeNode.getTextContent());
+                    }
+                }
+                if(lengthPrevious == genres.size())
+                    genres.add(" ");
             }
+
 
             return genres;
         } catch (Exception e) {
@@ -308,13 +344,18 @@ public class APIHandler {
         List<String> prices = new ArrayList<String>();
         try {
             Document doc = getDocumentFromUrl(requestUrl);
-            NodeList priceNodes = doc.getElementsByTagName("FormattedPrice");
+            NodeList priceNodes = doc.getElementsByTagName("OfferSummary");
 
+            int previousLength = prices.size();
             for (int i = 0; i < priceNodes.getLength() && i < 10; ++i)
             {
-                if (priceNodes.item(i).getTextContent() != null)
-                    prices.add(priceNodes.item(i).getTextContent());
+                Node priceNode = priceNodes.item(i);
+                Node lowestPriceNode = priceNode.getFirstChild();
+                Node formattedPrice = lowestPriceNode.getLastChild();
+                prices.add(formattedPrice.getTextContent());
             }
+            if(previousLength == prices.size())
+                prices.add(" ");
 
             return prices;
         } catch (Exception e) {
@@ -350,6 +391,7 @@ public class APIHandler {
                 String category = imagesNode.getAttributes().getNamedItem("Category").getNodeValue();
                 if (category.equals("primary")) {
                     NodeList imageTypeNodes = imagesNode.getChildNodes();
+                    int legnthPrevious = images.size();
                     for (int k = 0; k < imageTypeNodes.getLength(); ++k) {
                         Node imageType = imageTypeNodes.item(k);
                         String type = imageType.getNodeName();
@@ -358,6 +400,8 @@ public class APIHandler {
                             images.add(image);
                         }
                     }
+                    if(legnthPrevious == images.size())
+                        images.add(" ");
                 }
             }
 

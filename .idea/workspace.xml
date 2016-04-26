@@ -6,14 +6,13 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc871e39-85cb-41d7-b169-4a85e019e3a9" name="Default" comment="Added VideoGames Category and">
+    <list default="true" id="dc871e39-85cb-41d7-b169-4a85e019e3a9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Reco_war_exploded/WEB-INF/classes/Handlers/APIHandler.class" afterPath="$PROJECT_DIR$/out/artifacts/Reco_war_exploded/WEB-INF/classes/Handlers/APIHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Reco_war_exploded/WEB-INF/classes/Servlets/mainServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/Reco_war_exploded/WEB-INF/classes/Servlets/mainServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Handlers/APIHandler.class" afterPath="$PROJECT_DIR$/target/classes/Handlers/APIHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Servlets/mainServlet.class" afterPath="$PROJECT_DIR$/target/classes/Servlets/mainServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Reco_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/Reco_war_exploded/index.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Handlers/APIHandler.java" afterPath="$PROJECT_DIR$/src/main/java/Handlers/APIHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Servlets/mainServlet.java" afterPath="$PROJECT_DIR$/src/main/java/Servlets/mainServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
     </list>
     <ignored path="Reco.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,18 +53,18 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.2692308">
+            <state vertical-scroll-proportion="0.0">
               <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8051948">
-              <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -81,14 +80,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="APIHandler.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="APIHandler.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Handlers/APIHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="276" column="30" selection-start-line="276" selection-start-column="30" selection-end-line="276" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.5016892">
+              <caret line="349" column="68" selection-start-line="349" selection-start-column="68" selection-end-line="349" selection-end-column="68" />
               <folding>
-                <element signature="e#1591#1599#0" expanded="true" />
-                <element signature="e#8922#8930#0" expanded="true" />
+                <element signature="e#12705#12713#0" expanded="true" />
+                <element signature="e#13586#13594#0" expanded="true" />
+                <element signature="e#14226#14234#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,10 +99,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="239" column="19" selection-start-line="239" selection-start-column="19" selection-end-line="239" selection-end-column="19" />
-              <folding>
-                <element signature="n#!!doc" expanded="false" />
-                <element signature="imports" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -159,8 +156,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/AmazonProductAdvtApiSampleJavaQuery/src/main/java/com/amazon/advertising/api/sample/SignedRequestsHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/Servlets/mainServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Handlers/APIHandler.java" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/Handlers/APIHandler.java" />
       </list>
     </option>
   </component>
@@ -286,6 +283,7 @@
     <panes>
       <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -488,7 +486,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1207,7 +1204,8 @@
       <workItem from="1461530040979" duration="14519000" />
       <workItem from="1461547367081" duration="416000" />
       <workItem from="1461548575475" duration="23729000" />
-      <workItem from="1461615526193" duration="8163000" />
+      <workItem from="1461615526193" duration="11036000" />
+      <workItem from="1461631175351" duration="5083000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1453504010759</created>
@@ -1305,11 +1303,17 @@
       <option name="project" value="LOCAL" />
       <updated>1461580852955</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Added Video Games Category and Creator section in results that includes the director of movies, the artist of music, the author of books, and the creator of the video game">
+      <created>1461628135141</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1461628135141</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="188475000" />
+    <option name="totallyTimeSpent" value="196431000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1317,7 +1321,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32286024" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3217768" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1393,7 +1397,8 @@
     <MESSAGE value="updating to handle NPE and include war" />
     <MESSAGE value="fixed bug where the results were to incorrect url" />
     <MESSAGE value="Added Genres, Rankings, Prices, and Thumbnails! Have ability to increase result set but currently am making too many requests so would need to pay for service or add a wait period." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Genres, Rankings, Prices, and Thumbnails! Have ability to increase result set but currently am making too many requests so would need to pay for service or add a wait period." />
+    <MESSAGE value="Added Video Games Category and Creator section in results that includes the director of movies, the artist of music, the author of books, and the creator of the video game" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Video Games Category and Creator section in results that includes the director of movies, the artist of music, the author of books, and the creator of the video game" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1410,32 +1415,8 @@
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Handlers/APIHandler.java</url>
-          <line>346</line>
-          <properties />
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Handlers/APIHandler.java</url>
-          <line>136</line>
-          <properties />
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Handlers/APIHandler.java</url>
-          <line>256</line>
-          <properties />
-          <option name="timeStamp" value="50" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Handlers/APIHandler.java</url>
-          <line>283</line>
-          <properties />
-          <option name="timeStamp" value="51" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="52" />
+      <option name="time" value="58" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="GlassfishConfiguration">
@@ -1517,8 +1498,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1591#1599#0" expanded="true" />
-            <element signature="e#8922#8930#0" expanded="true" />
+            <element signature="e#12705#12713#0" expanded="true" />
+            <element signature="e#13586#13594#0" expanded="true" />
+            <element signature="e#14226#14234#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1769,13 +1751,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/css/bootstrap.css.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/css/bootstrap.min.css">
@@ -1787,20 +1769,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2692308">
+        <state vertical-scroll-proportion="0.0">
           <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AmazonProductAdvtApiSampleJavaQuery/src/main/java/com/amazon/advertising/api/sample/SignedRequestsHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="239" column="19" selection-start-line="239" selection-start-column="19" selection-end-line="239" selection-end-column="19" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1808,7 +1779,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35232067">
           <caret line="208" column="19" selection-start-line="208" selection-start-column="19" selection-end-line="208" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1820,22 +1790,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Handlers/APIHandler.java">
+    <entry file="file://$PROJECT_DIR$/AmazonProductAdvtApiSampleJavaQuery/src/main/java/com/amazon/advertising/api/sample/SignedRequestsHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="276" column="30" selection-start-line="276" selection-start-column="30" selection-end-line="276" selection-end-column="30" />
-          <folding>
-            <element signature="e#1591#1599#0" expanded="true" />
-            <element signature="e#8922#8930#0" expanded="true" />
-          </folding>
+          <caret line="239" column="19" selection-start-line="239" selection-start-column="19" selection-end-line="239" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8051948">
-          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Handlers/APIHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5016892">
+          <caret line="349" column="68" selection-start-line="349" selection-start-column="68" selection-end-line="349" selection-end-column="68" />
+          <folding>
+            <element signature="e#12705#12713#0" expanded="true" />
+            <element signature="e#13586#13594#0" expanded="true" />
+            <element signature="e#14226#14234#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

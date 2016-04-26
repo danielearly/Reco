@@ -17,6 +17,7 @@
   <input type="radio" name="category" value="Movies"/>Movies
   <input type="radio" name="category" value="Books"/>Books
   <input type="radio" name="category" value="Music"/>Music
+  <input type="radio" name="category" value="VideoGames"/>Video Games
   <br>
   <input type="text" name="input" size="30"/>
   <input type="submit" id="btnSearch" value="search"/>
@@ -27,6 +28,7 @@
     <tr>
       <th>#</th>
       <th>Name</th>
+      <th>Creator</th>
       <th>Genre</th>
       <th>Price</th>
       <th>Ranking</th>
@@ -36,6 +38,7 @@
       <tr>
         <td>${status.index + 1}</td>
         <td><a href=${urlList[status.index]}>${title}</a></td>
+        <td>${creatorList[status.index]}</td>
         <td>${genreList[status.index]}</td>
         <td>${priceList[status.index]}</td>
         <td>${rankingList[status.index]}</td>
